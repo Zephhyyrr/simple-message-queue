@@ -1,0 +1,5 @@
+node_modules
+# Keep environment variables out of version control
+/notfication_consumer/.env
+/notfication_publisher/.env
+.env
