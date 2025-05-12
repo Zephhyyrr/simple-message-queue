@@ -21,8 +21,8 @@ Pastikan kamu sudah menginstal software berikut sebelum menjalankan proyek ini:
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/username/tugas_message_queue.git
-cd tugas_message_queue
+git clone https://github.com/Zephhyyrr/simple-message-queue
+cd simple-message-queue
 
 ```
 
@@ -41,7 +41,7 @@ PORT=3001
 
 .env untuk notification_consumer
 ```bash
-POSTGRES_URL="postgresql://username:password@localhost:5433/topik-khusus-messageQueue"
+POSTGRES_URL="postgresql://username:password@localhost:5432/simple-message-queue"
 REDIS_URL=redis://127.0.0.1:6379
 RABBITMQ_URL=amqp://localhost
 QUEUE_NAME=notifications
